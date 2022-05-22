@@ -25,7 +25,7 @@ const Navbar = () => {
           {/* For large and Medium-sized Screen */}
           <div className="flex justify-between ">
             <div className="hidden lg:flex flex-row items-center space-x-6">
-              <p className="text-fountain pt-9">School Portal</p>
+              <p className="text-fountain pt-12">School Portal</p>
             </div>
             <div className="space-x-3  items-center">
               <div className="flex justify-center">
@@ -37,7 +37,7 @@ const Navbar = () => {
             </div>
             <div className="hidden lg:flex flex-row space-x-4">
               <em>
-                <p className="text-fountain font-medium pt-9">School Portal...</p>
+                <p className="text-fountain font-medium pt-12">School Portal...</p>
               </em>
             </div>
             {/* Burger Icon */}
