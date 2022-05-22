@@ -4,7 +4,7 @@ import Side from "../componets/Side";
 
 const Home = () => {
   return (
-    <div className='px-9'>
+    <div className='px-4 lg:px-9'>
       <Layout />
       <div className="flex ">
         <Side />
