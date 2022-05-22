@@ -7,8 +7,8 @@ module.exports = {
       white: "#ffffff",
       purple: "#3f3cbb",
       fountain: "#BB750C",
-      line: "d3d3d3",
-      tgray: "404040"
+      line: "#d3d3d3",
+      tgray: "#404040"
 
     },
     extend: {},

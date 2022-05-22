@@ -27,7 +27,7 @@ const Dashboard = () => {
         <ul className="space-y-4 tracking-wide mt-8">
             
         <li>
-                <a href="#" className="px-4 py-5 flex items-center border-b-2 space-x-4 text-gray-600 group">
+                <a href="#" className="px-4 py-5 flex items-center border-b-2 space-x-4 text-line group">
                    
                     <span className="group-hover:text-tgray"></span>
                 </a>
