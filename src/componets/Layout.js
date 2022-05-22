@@ -167,7 +167,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="px-4 py-5 flex items-center space-x-4 text-line group"
+                  className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
                 >
                   <span className="group-hover:text-tgray">Home</span>
                 </a>
