@@ -1,14 +1,12 @@
 /* eslint-disable react/no-unknown-property */
-import React from 'react'
-import Layout from './Layout'
+import React from "react";
+import Layout from "./Layout";
 
 const Dashboard = () => {
   return (
-<aside className="ml-[-100%] hidden lg:block pl-9 top-0 pb-3 px-6 w-1/4 flex flex-col justify-between h-screen border-r-2 border-fountain  bg-white transition duration-300 md:w-4/12 lg:ml-0 lg:w-[25%] xl:w-[20%] 2xl:w-[15%]">
-    <div>
-       
-
-    {/* <label className="block text-lg my-3 text-gray-600 :text-gray-200">
+    <aside className="ml-[-100%] hidden lg:block pl-9 top-0 pb-3 px-6 w-1/4 flex flex-col justify-between h-screen border-r-2 border-fountain  bg-white transition duration-300 md:w-4/12 lg:ml-0 lg:w-[25%] xl:w-[20%] 2xl:w-[15%] ">
+      <div>
+        {/* <label className="block text-lg my-3 text-gray-600 :text-gray-200">
                   Bank
                 </label>
                 <select
@@ -25,60 +23,72 @@ const Dashboard = () => {
                 </select> */}
 
         <ul className="space-y-4 tracking-wide mt-8">
-            
-        <li>
-                <a href="#" className="px-4 py-5 flex items-center border-b-2 space-x-4 text-line group">
-                   
-                    <span className="group-hover:text-tgray"></span>
-                </a>
-            </li>
+          <li>
+            <a
+              href="#"
+              className="px-4 py-5 flex items-center border-b-2 space-x-4 text-line group"
+            >
+              <span className="group-hover:text-tgray"></span>
+            </a>
+          </li>
 
-            <li>
-                <a href="#" className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group">
-                   
-                    <span className="group-hover:text-tgray">Register</span>
-                </a>
-            </li>
+          <li>
+            <a
+              href="#"
+              className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
+            >
+              <span className="group-hover:text-tgray">Register</span>
+            </a>
+          </li>
 
-            <li>
-                <a href="#" className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group">
-                   
-                    <span className="group-hover:text-tgray">FAQ/Helpdesk</span>
-                </a>
-            </li>
+          <li>
+            <a
+              href="#"
+              className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
+            >
+              <span className="group-hover:text-tgray">FAQ/Helpdesk</span>
+            </a>
+          </li>
 
-            <li>
-                <a href="#" className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group">
-                   
-                    <span className="group-hover:text-tgray">About</span>
-                </a>
-            </li>
+          <li>
+            <a
+              href="#"
+              className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
+            >
+              <span className="group-hover:text-tgray">About</span>
+            </a>
+          </li>
 
-            <li>
-                <a href="#" className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group">
-                   
-                    <span className="group-hover:text-tgray">Teacher's Login</span>
-                </a>
-            </li>
+          <li>
+            <a
+              href="#"
+              className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
+            >
+              <span className="group-hover:text-tgray">Teacher's Login</span>
+            </a>
+          </li>
 
-            <li>
-                <a href="#" className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group">
-                   
-                    <span className="group-hover:text-tgray">Student's Login</span>
-                </a>
-            </li>
+          <li>
+            <a
+              href="#"
+              className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
+            >
+              <span className="group-hover:text-tgray">Student's Login</span>
+            </a>
+          </li>
 
-            <li>
-                <a href="#" className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group">
-                   
-                    <span className="group-hover:text-tgray">Home</span>
-                </a>
-            </li>
-
+          <li>
+            <a
+              href="#"
+              className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
+            >
+              <span className="group-hover:text-tgray">Home</span>
+            </a>
+          </li>
         </ul>
-    </div>
-</aside>
-  )
-}
+      </div>
+    </aside>
+  );
+};
 
-export default Dashboard
+export default Dashboard;
