@@ -116,18 +116,18 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="px-4 py-5 flex items-center border-b-2 space-x-4 text-gray-900 group"
+                  className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
                 >
-                  <span className="group-hover:text-gray-700">Register</span>
+                  <span className="group-hover:text-tgray">Register</span>
                 </a>
               </li>
 
               <li>
                 <a
                   href="#"
-                  className="px-4 py-5 flex items-center border-b-2 space-x-4 text-gray-900 group"
+                  className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
                 >
-                  <span className="group-hover:text-gray-700">
+                  <span className="group-hover:text-tgray">
                     FAQ/Helpdesk
                   </span>
                 </a>
@@ -136,18 +136,18 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="px-4 py-5 flex items-center border-b-2 space-x-4 text-gray-900 group"
+                  className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
                 >
-                  <span className="group-hover:text-gray-700">About</span>
+                  <span className="group-hover:text-tgray">About</span>
                 </a>
               </li>
 
               <li>
                 <a
                   href="#"
-                  className="px-4 py-5 flex items-center border-b-2 space-x-4 text-gray-900 group"
+                  className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
                 >
-                  <span className="group-hover:text-gray-700">
+                  <span className="group-hover:text-tgray">
                     Teacher's Login
                   </span>
                 </a>
@@ -156,9 +156,9 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="px-4 py-5 flex items-center border-b-2 space-x-4 text-gray-900 group"
+                  className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
                 >
-                  <span className="group-hover:text-gray-700">
+                  <span className="group-hover:text-tgray">
                     Student's Login
                   </span>
                 </a>
@@ -167,9 +167,9 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="px-4 py-5 flex items-center space-x-4 text-gray-900 group"
+                  className="px-4 py-5 flex items-center space-x-4 text-line group"
                 >
-                  <span className="group-hover:text-gray-700">Home</span>
+                  <span className="group-hover:text-tgray">Home</span>
                 </a>
               </li>
             </ul>
