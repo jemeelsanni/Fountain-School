@@ -7,7 +7,7 @@ const Navbar = () => {
   const [show, setshow] = useState(false);
 
   return (
-    <div>
+    <div> 
       <div className=" bg-white ">
         <nav className="   py-3 border-b-4 border-fountain  mt-5 ">
           {/* For large and Medium-sized Screen */}
