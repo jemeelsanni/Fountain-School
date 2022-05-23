@@ -1,27 +1,15 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { Link } from "react-router-dom";
-import Side from "./Side";
+
 // import { Container, Nav, NavDropdown } from "react-bootstrap";
 
 const Navbar = () => {
-  const navContents = [
-    { name: "Home", href: "/", current: "true" },
-    { name: "About", href: "#", current: "false" },
-    { name: "Blog", href: "/blog", current: "false" },
-    // {name:'Home', href:"/", current:"true"}
-  ];
-  function classNames(...classes) {
-    return classes.filter(Boolean).join(" ");
-  }
   const [show, setshow] = useState(false);
 
   const [show0, setShow0] = useState(false);
   const [show1, setShow1] = useState(false);
 
-  const [currentUser, setCurrentUser] = useState("");
-  const dispatch = useDispatch();
-  const logoutHandler = () => {};
   return (
     <div>
       <div className=" bg-white ">
@@ -33,7 +21,7 @@ const Navbar = () => {
             </div>
             <div className="space-x-3  items-center">
               <div className="flex justify-center">
-                <img src="./logo.jpg" className="w-14 h-12" />
+                <img src="./logo.jpg" className="w-14 h-12" alt="Img"/>
               </div>
               <h1 className="hidden lg:block font-bold text-xl leading-6 text-gray-800">
                 FOUNTAIN | ACADEMY
