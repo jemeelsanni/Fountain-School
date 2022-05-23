@@ -58,7 +58,7 @@ const Dashboard = () => {
             >
               <span className="group-hover:text-fountain">About</span>
             </Link>
-          </li>
+          </li> 
 
           <li>
             <Link
