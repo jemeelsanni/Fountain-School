@@ -1,7 +1,7 @@
 import React from "react";
 
-const Test = () => {
-  return <div className="text-fountain">Test</div>;
+const Omo = () => {
+  return <div className="text-fountain">Omo</div>;
 };
 
-export default Test;
+export default Omo;
