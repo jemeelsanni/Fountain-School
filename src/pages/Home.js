@@ -1,5 +1,6 @@
 import React from "react";
-
+import Layout from "../components/layout/Layout";
+import Side from "../components/layout/Side";
 
 const Home = () => {
   return (
