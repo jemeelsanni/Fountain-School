@@ -123,12 +123,8 @@ const UserSignin = () => {
                       </div>
                     </form>
                   </div>
-                  <div class="grow-0 shadow-lg shadow-tgray  shrink-10 border-x-4 border-y-4 h-96 md:shrink-0 basis-auto xl:w-6/12 border-fountain lg:w-6/12 md:w-9/12 mb-12 md:mb-0">
-                    <img
-                      src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
-                      class="w-full invisible "
-                      alt="Sample image"
-                    />
+                  <div className="max-w-lg lg:w-1/3 h-1/3 p-8 mt-20 shadow-lg shadow-tgray  border-fountain drop-shadow-2xl text-center text-fountain border-2 mx-auto rounded-lg dark:bg-gray-900 dark:text-gray-100">
+                    School News
                   </div>
                 </div>
               </div>
