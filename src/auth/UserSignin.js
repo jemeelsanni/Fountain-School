@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useState } from "react";
 import Layout from "../components/layout/Layout";
 import Side from "../components/layout/Side";
