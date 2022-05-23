@@ -123,7 +123,7 @@ const UserSignin = () => {
                       </div>
                     </form>
                   </div>
-                  <div className="max-w-lg lg:w-1/3 h-1/3 p-8 mt-20 shadow-lg shadow-tgray  border-fountain drop-shadow-2xl text-center text-fountain border-2 mx-auto rounded-lg dark:bg-gray-900 dark:text-gray-100">
+                  <div className="max-w-lg lg:w-1/3 w-full h-1/3 p-8 mt-20 shadow-lg shadow-tgray  border-fountain drop-shadow-2xl text-center text-fountain border-2 mx-auto rounded-lg dark:bg-gray-900 dark:text-gray-100">
                     School News
                   </div>
                 </div>
