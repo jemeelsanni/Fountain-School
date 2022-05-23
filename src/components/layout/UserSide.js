@@ -79,7 +79,7 @@ const Dashboard = () => {
               } border-fountain border-2 my-2`}
             >
               <a
-                href="#"
+                href="/feepayment"
                 className="px-4 py-3 flex items-center border-b-2 justify-between space-x-4 text-tgray border-line group"
               >
                 <span className="group-hover:text-fountain text-sm">
@@ -87,7 +87,7 @@ const Dashboard = () => {
                 </span>
               </a>
               <a
-                href="#"
+                href="/printfee"
                 className="px-4 py-3 flex items-center border-b-2 justify-between space-x-4 text-tgray border-line group"
               >
                 <span className="group-hover:text-fountain text-sm">

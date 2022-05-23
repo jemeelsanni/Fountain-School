@@ -3,6 +3,7 @@ import TeacherSignin from "./auth/TeacherSignin";
 import Home from "./pages/Home";
 import Test from "./pages/Test";
 import SchoolFeePayment from "./pages/SchoolFeePayment";
+import PrintFee from "./pages/PrintFee";
 
 import Omo from "./pages/Omo";
 import UserSignin from "./auth/UserSignin";
@@ -19,6 +20,7 @@ function App() {
         <Route path="omo" element={<Omo />} />
         <Route path="userauth" element={<UserSignin />} />
         <Route path="personal" element={<PersonalDetails />} />
+        <Route path="printfee" element={<PrintFee />} />
       </Routes>
     </div>
   );
