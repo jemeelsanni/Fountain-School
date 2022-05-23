@@ -1,10 +1,15 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Layout from "../components/layout/Layout";
 import Side from "../components/layout/Side";
 
 const UserSignin = () => {
   const [showpass, setShowPass] = useState(false);
+  const navigate = useNavigate();
+  const tempNavigation = () => {
+    navigate("/personal");
+  };
   return (
     <div>
       <div className="px-4 lg:px-9">
@@ -106,6 +111,7 @@ const UserSignin = () => {
 
                       <div class="text-center lg:text-left">
                         <button
+                          onClick={tempNavigation}
                           type="button"
                           class="inline-block px-7 py-3 bg-fountain w-full text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                         >
