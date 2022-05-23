@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Test from "./pages/Test";
 import SchoolFeePayment from "./pages/SchoolFeePayment";
 import PrintFee from "./pages/PrintFee";
+import PrintTimetable from "./pages/PrintTimetable";
+import PrintResult from "./pages/PrintResult";
 
 import Omo from "./pages/Omo";
 import UserSignin from "./auth/UserSignin";
@@ -21,6 +23,8 @@ function App() {
         <Route path="userauth" element={<UserSignin />} />
         <Route path="personal" element={<PersonalDetails />} />
         <Route path="printfee" element={<PrintFee />} />
+        <Route path="printtimetable" element={<PrintTimetable />} />
+        <Route path="printresult" element={<PrintResult />} />
       </Routes>
     </div>
   );
