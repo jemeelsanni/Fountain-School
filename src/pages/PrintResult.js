@@ -17,7 +17,7 @@ const Home = () => {
               </a>
               <h2 class="text-3xl md:text-2xl font-medium mb-2">Results</h2>
             </div>
-          </div>
+          </div> 
 
           <div className="lg:flex justify-between w-full border-2 rounded-md border-fountain py-8 px-26">
             {/* <!-- component --> */}
