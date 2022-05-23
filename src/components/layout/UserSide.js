@@ -68,7 +68,7 @@ const Dashboard = () => {
           <li>
             <a
               onClick={() => setShow1(!show1)}
-              className="px-2 py-5 flex items-center cursor-pointer justify-between border-b-2 space-x-4 text-tgray border-line group"
+              className="px-4 py-5 flex items-center cursor-pointer justify-between border-b-2 space-x-4 text-tgray border-line group"
             >
               <span className="group-hover:text-fountain">Main Menu</span>
               <img src="https://img.icons8.com/material/24/000000/sort-down--v1.png" />
