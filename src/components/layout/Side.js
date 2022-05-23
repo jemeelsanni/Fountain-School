@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/no-unknown-property */
 import React from "react";
 
@@ -27,7 +28,7 @@ const Dashboard = () => {
               href="#"
               className="px-4 py-5 flex items-center border-b-2 space-x-4 text-line group"
             >
-              <span className="group-hover:text-tgray"></span>
+              <span className="group-hover:text-fountain"></span>
             </a>
           </li>
 
@@ -36,7 +37,7 @@ const Dashboard = () => {
               href="#"
               className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
             >
-              <span className="group-hover:text-tgray">Register</span>
+              <span className="group-hover:text-fountain">Register</span>
             </a>
           </li>
 
@@ -45,7 +46,7 @@ const Dashboard = () => {
               href="#"
               className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
             >
-              <span className="group-hover:text-tgray">FAQ/Helpdesk</span>
+              <span className="group-hover:text-fountain">FAQ/Helpdesk</span>
             </a>
           </li>
 
@@ -54,7 +55,7 @@ const Dashboard = () => {
               href="#"
               className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
             >
-              <span className="group-hover:text-tgray">About</span>
+              <span className="group-hover:text-fountain">About</span>
             </a>
           </li>
 
@@ -63,7 +64,7 @@ const Dashboard = () => {
               href="#"
               className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
             >
-              <span className="group-hover:text-tgray">Teacher's Login</span>
+              <span className="group-hover:text-fountain">Teacher's Login</span>
             </a>
           </li>
 
@@ -72,7 +73,7 @@ const Dashboard = () => {
               href="#"
               className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
             >
-              <span className="group-hover:text-tgray">Student's Login</span>
+              <span className="group-hover:text-fountain">Student's Login</span>
             </a>
           </li>
 
@@ -81,7 +82,7 @@ const Dashboard = () => {
               href="#"
               className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
             >
-              <span className="group-hover:text-tgray">Home</span>
+              <span className="group-hover:text-fountain">Home</span>
             </a>
           </li>
         </ul>

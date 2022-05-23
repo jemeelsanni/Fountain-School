@@ -1,23 +1,11 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { Link } from "react-router-dom";
-import Side from "./Side";
-// import { Container, Nav, NavDropdown } from "react-bootstrap";
-
 const Navbar = () => {
-  const navContents = [
-    { name: "Home", href: "/", current: "true" },
-    { name: "About", href: "#", current: "false" },
-    { name: "Blog", href: "/blog", current: "false" },
-    // {name:'Home', href:"/", current:"true"}
-  ];
-  function classNames(...classes) {
-    return classes.filter(Boolean).join(" ");
-  }
+
+ 
   const [show, setshow] = useState(false);
-  const [currentUser, setCurrentUser] = useState("");
-  const dispatch = useDispatch();
-  const logoutHandler = () => {};
+
   return (
     <div>
       <div className=" bg-white ">
