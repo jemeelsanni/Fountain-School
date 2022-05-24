@@ -5,9 +5,9 @@ import Side from "../components/layout/UserSide";
 
 const Home = () => {
   return (
-    <div className="px-4 lg:px-9">
+    <div className="px-4 lg:px-9 h-max max-h-full">
       <Layout />
-      <div className="flex">
+      <div className="flex h-full max-h-full">
         <Side />
         <div className="py-26 lg:pl-12 bg-white w-full">
           <div className="justify-between">
@@ -19,7 +19,7 @@ const Home = () => {
             </div>
           </div> 
 
-          <div className="lg:flex justify-between w-full border-2 rounded-md border-fountain py-8 px-26">
+          <div className="lg:flex justify-between w-3/4 border-2 rounded-md border-fountain py-8 mx-auto">
             {/* <!-- component --> */}
             <section class="my-auto  bg-white w-full">
               <div class="container my-auto px-4 mx-auto">
@@ -62,6 +62,11 @@ const Home = () => {
                 <span className="font-bold">Class Letter</span> : C
               </p>
             </div>
+          </div>
+
+          <div className="lg:flex justify-between w-3/4 mt-5 h-2/4 border-2 rounded-md border-fountain py-8 mx-auto">
+            {/* <!-- component --> */}
+            
           </div>
 
           <section className="flex w-half my-4 mt:10 lg:mt-20 justify-center">

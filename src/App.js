@@ -6,6 +6,8 @@ import SchoolFeePayment from "./pages/SchoolFeePayment";
 import PrintFee from "./pages/PrintFee";
 import PrintTimetable from "./pages/PrintTimetable";
 import PrintResult from "./pages/PrintResult";
+import MainMenu from "./pages/MainMenu";
+import EditDetails from "./pages/EditDetails";
 
 import Omo from "./pages/Omo";
 import UserSignin from "./auth/UserSignin";
@@ -25,6 +27,8 @@ function App() {
         <Route path="printfee" element={<PrintFee />} />
         <Route path="printtimetable" element={<PrintTimetable />} />
         <Route path="printresult" element={<PrintResult />} />
+        <Route path="mainmenu" element={<MainMenu />} />
+        <Route path="editdetails" element={<EditDetails />} />
       </Routes>
     </div>
   );
