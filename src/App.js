@@ -10,6 +10,9 @@ import PrintResult from "./pages/PrintResult";
 import Omo from "./pages/Omo";
 import UserSignin from "./auth/UserSignin";
 import PersonalDetails from "./pages/PersonalDetails";
+import Receipt from "./pages/Receipt";
+import TimeTable from "./pages/TimeTable";
+import Result from "./pages/Result";
 function App() {
   return (
     <div className="App">
@@ -25,6 +28,9 @@ function App() {
         <Route path="printfee" element={<PrintFee />} />
         <Route path="printtimetable" element={<PrintTimetable />} />
         <Route path="printresult" element={<PrintResult />} />
+        <Route path="receipt" element={<Receipt />} />
+        <Route path="timetable" element={<TimeTable />} />
+        <Route path="result" element={<Result />} />
       </Routes>
     </div>
   );
