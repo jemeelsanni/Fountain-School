@@ -12,13 +12,14 @@ import AddSubject from "./pages/AddSubject";
 import AddCaAndExam from "./pages/AddCaAndExams";
 import PrintStudentProfile from "./pages/PrintStudentProfile";
 
-
 import Omo from "./pages/Omo";
 import UserSignin from "./auth/UserSignin";
 import PersonalDetails from "./pages/PersonalDetails";
 import Receipt from "./pages/Receipt";
 import TimeTable from "./pages/TimeTable";
 import Result from "./pages/Result";
+import AdmissionLetter from "./pages/AdmissionLetter";
+import PersonalDetails2 from "./pages/PersonalDetails2";
 function App() {
   return (
     <div className="App">
@@ -38,14 +39,14 @@ function App() {
         <Route path="receipt" element={<Receipt />} />
         <Route path="timetable" element={<TimeTable />} />
         <Route path="result" element={<Result />} />
+        <Route path="letter" element={<AdmissionLetter />} />
+        <Route path="personal2" element={<PersonalDetails2 />} />
 
         <Route path="mainmenu" element={<MainMenu />} />
         <Route path="editdetails" element={<EditDetails />} />
         <Route path="addsubject" element={<AddSubject />} />
         <Route path="addcaandexam" element={<AddCaAndExam />} />
         <Route path="printstudentprofile" element={<PrintStudentProfile />} />
-        
-
       </Routes>
     </div>
   );
