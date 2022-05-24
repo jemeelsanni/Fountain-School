@@ -2,14 +2,14 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <div>
-            <img src="./logo.jpg" className="w-14 h-12 pt-4 pl-9 "/>
-            <nav className="justify-end pr-9 space-x-4">
-                <a className="group-hover:text-fountain" href="">Home</a>
-                <a className="group-hover:text-fountain" href="">About</a>
-                <a className="group-hover:text-fountain" href="">Contact Us</a>
-                <a className="group-hover:text-fountain" href="">Portal</a>
-                <a className="group-hover:text-fountain" href="">Payment</a>
+        <div className="flex justify-between px-6 py-6">
+            <img src="./logo.jpg" className="w-14 h-12"/>
+            <nav className="space-x-5">
+                <a className=" font-semibold hover:text-fountain" href="">HOME</a>
+                <a className=" font-semibold hover:text-fountain" href="">ABOUT</a>
+                <a className=" font-semibold hover:text-fountain" href="">CONTACT US</a>
+                <a className=" font-semibold hover:text-fountain" href="">PORTAL</a>
+                <a className=" font-semibold hover:text-fountain" href="">PAYMENT</a>
 
             </nav>
         </div>
