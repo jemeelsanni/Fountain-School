@@ -16,6 +16,9 @@ import PrintStudentProfile from "./pages/PrintStudentProfile";
 import Omo from "./pages/Omo";
 import UserSignin from "./auth/UserSignin";
 import PersonalDetails from "./pages/PersonalDetails";
+import Receipt from "./pages/Receipt";
+import TimeTable from "./pages/TimeTable";
+import Result from "./pages/Result";
 function App() {
   return (
     <div className="App">
@@ -31,12 +34,18 @@ function App() {
         <Route path="printfee" element={<PrintFee />} />
         <Route path="printtimetable" element={<PrintTimetable />} />
         <Route path="printresult" element={<PrintResult />} />
+
+        <Route path="receipt" element={<Receipt />} />
+        <Route path="timetable" element={<TimeTable />} />
+        <Route path="result" element={<Result />} />
+
         <Route path="mainmenu" element={<MainMenu />} />
         <Route path="editdetails" element={<EditDetails />} />
         <Route path="addsubject" element={<AddSubject />} />
         <Route path="addcaandexam" element={<AddCaAndExam />} />
         <Route path="printstudentprofile" element={<PrintStudentProfile />} />
         
+
       </Routes>
     </div>
   );

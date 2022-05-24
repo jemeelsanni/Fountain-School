@@ -8,7 +8,11 @@ const Dashboard = () => {
   const [show1, setShow1] = useState(false);
 
   return (
+
+    <aside className="ml-[-100%] h-screen hidden lg:block pl-1 top-0 pb-3 px-6 w-1/4 flex flex-col justify-between border-r-2 border-fountain  bg-white transition duration-300 md:w-4/12 lg:ml-0 lg:w-[25%] xl:w-[20%] 2xl:w-[15%] ">
+
     <aside className="ml-[-100%] hidden lg:block pl-1 max-h-full  top-0 pb-3 px-6 w-1/4 flex flex-col justify-between border-r-2 border-fountain  bg-white transition duration-300 md:w-4/12 lg:ml-0 lg:w-[25%] xl:w-[20%] 2xl:w-[15%] ">
+
       <div>
         <ul className="space-y-4 tracking-wide mt-8">
           <li>
@@ -87,7 +91,7 @@ const Dashboard = () => {
                 </span>
               </a>
               <a
-                href="/printfee"
+                href="/receipt"
                 className="px-4 py-3 flex items-center border-b-2 justify-between space-x-4 text-tgray border-line group"
               >
                 <span className="group-hover:text-fountain text-sm">
@@ -95,7 +99,7 @@ const Dashboard = () => {
                 </span>
               </a>
               <a
-                href="#"
+                href="/timetable"
                 className="px-4 py-3 flex items-center border-b-2 justify-between space-x-4 text-tgray border-line group"
               >
                 <span className="group-hover:text-fountain text-sm">
@@ -103,7 +107,7 @@ const Dashboard = () => {
                 </span>
               </a>
               <a
-                href="#"
+                href="/result"
                 className="px-4 py-3 flex items-center border-b-2 justify-between space-x-4 text-tgray border-line group"
               >
                 <span className="group-hover:text-fountain text-sm">
