@@ -5,21 +5,21 @@ import Side from "../components/layout/UserSide";
 
 const Home = () => {
   return (
-    <div className="px-4 lg:px-9 h-max max-h-full">
+    <div className="px-4 lg:px-9">
       <Layout />
-      <div className="flex h-full max-h-full">
+      <div className="flex">
         <Side />
         <div className="py-26 lg:pl-12 bg-white w-full">
-          <div className="justify-between">
-            <div class=" mt-10 mb-12">
-              <a class="inline-block mx-auto mb-6" href="#">
-                <img src="nigodo-assets/logo-icon-nigodo.svg" alt="" />
-              </a>
-              <h2 class="text-3xl md:text-2xl font-medium mb-2">Results</h2>
-            </div>
-          </div> 
+          <div class=" my-12">
+            <a class="inline-block mx-auto mb-6" href="#">
+              <img src="nigodo-assets/logo-icon-nigodo.svg" alt="" />
+            </a>
+            <h2 class="text-3xl md:text-2xl font-medium mb-2">
+              Personal Details
+            </h2>
+          </div>
 
-          <div className="lg:flex justify-between w-3/4 border-2 rounded-md border-fountain py-8 mx-auto">
+          <div className="lg:flex justify-between w-full border-2 rounded-md border-fountain py-8 px-8">
             {/* <!-- component --> */}
             <section class="my-auto  bg-white w-full">
               <div class="container my-auto px-4 mx-auto">
@@ -37,6 +37,12 @@ const Home = () => {
                   <p>
                     <span className="font-bold">Class Letter</span> : C
                   </p>
+                  <p>
+                    <span className="font-bold">Email</span> : Cr7@gmail.com
+                  </p>
+              <p>
+                <span className="font-bold">Phone</span> : 080
+              </p>
                 </div>
               </div>
             </section>
@@ -61,23 +67,14 @@ const Home = () => {
               <p>
                 <span className="font-bold">Class Letter</span> : C
               </p>
+              <p>
+                <span className="font-bold">Email</span> : Cr7@gmail.com
+              </p>
+              <p>
+                <span className="font-bold">Phone</span> : 080
+              </p>
             </div>
           </div>
-
-          <div className="lg:flex justify-between w-3/4 mt-5 h-2/4 border-2 rounded-md border-fountain py-8 mx-auto">
-            {/* <!-- component --> */}
-            
-          </div>
-
-          <section className="flex w-half my-4 mt:10 lg:mt-20 justify-center">
-
-            <button
-              type="button"
-              class=" w-2/4 mt-5 lg:my-auto lg:mx-26 bg-fountain h-12 text-white font-medium text-sm leading-snug  hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-            >
-              Proceed to payment
-            </button>
-          </section>
         </div>
       </div>
     </div>
