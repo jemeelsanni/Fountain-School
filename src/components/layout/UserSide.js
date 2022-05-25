@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/no-unknown-property */
 import React, { useState } from "react";
+import LogoutHandler from "../LogoutHandler";
 
 const Dashboard = () => {
   const [show, setShow] = useState(false);
@@ -146,7 +147,9 @@ const Dashboard = () => {
               href="#"
               className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
             >
-              <span className="group-hover:text-fountain">Log Out</span>
+              <span className="group-hover:text-fountain">
+                <LogoutHandler />
+              </span>
             </a>
           </li>
         </ul>
