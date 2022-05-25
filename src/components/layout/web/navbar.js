@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <div className="flex justify-between px-6 py-6">
+        <div className="flex justify-between px-20 py-6">
             <img src="./logo.jpg" className="w-14 h-12"/>
             <nav className="space-x-5">
                 <a className=" font-semibold hover:text-fountain" href="">HOME</a>
