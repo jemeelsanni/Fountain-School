@@ -141,7 +141,7 @@ const Receipt = () => {
                     onClick={viewReceipt}
                     class="bg-fountain mt-12 hover:bg-fountain w-5/12 h-14 text-white font-bold py-2 px-4 border border-blue-700 rounded"
                   >
-                    View Receipt
+                    View Receipts
                   </button>
                 </div>
               </div>

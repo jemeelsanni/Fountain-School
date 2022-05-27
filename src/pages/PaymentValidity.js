@@ -13,7 +13,7 @@ const PaymentValidity = () => {
           <div className="py-26 lg:pl-12 bg-white w-full">
             <div className=" lg:flex justify-between">
               <div class=" mt-10 mb-12">
-                <a class="inline-block mx-auto mb-6" href="#">
+                <a class="inline-block mx-auto mb-6" href="#s">
                   <img src="nigodo-assets/logo-icon-nigodo.svg" alt="" />
                 </a>
                 <h2 class="text-3xl md:text-2xl font-medium mb-2">
