@@ -20,6 +20,9 @@ import TimeTable from "./pages/TimeTable";
 import Result from "./pages/Result";
 import AdmissionLetter from "./pages/AdmissionLetter";
 import PersonalDetails2 from "./pages/PersonalDetails2";
+import PaymentValidity from "./pages/PaymentValidity";
+import FormsAndPayment from "./pages/FormsAndPayment";
+import ProceedToPayment from "./pages/ProceedToPayment";
 function App() {
   return (
     <div className="App">
@@ -41,10 +44,13 @@ function App() {
         <Route path="result" element={<Result />} />
         <Route path="letter" element={<AdmissionLetter />} />
         <Route path="personal2" element={<PersonalDetails2 />} />
+        <Route path="forms" element={<FormsAndPayment />} />
 
         <Route path="mainmenu" element={<MainMenu />} />
         <Route path="editdetails" element={<EditDetails />} />
         <Route path="addsubject" element={<AddSubject />} />
+        <Route path="paymentval" element={<PaymentValidity />} />
+        <Route path="proceed" element={<ProceedToPayment />} />
         <Route path="addcaandexam" element={<AddCaAndExam />} />
         <Route path="printstudentprofile" element={<PrintStudentProfile />} />
       </Routes>
