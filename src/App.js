@@ -23,6 +23,10 @@ import PersonalDetails2 from "./pages/PersonalDetails2";
 import PaymentValidity from "./pages/PaymentValidity";
 import FormsAndPayment from "./pages/FormsAndPayment";
 import ProceedToPayment from "./pages/ProceedToPayment";
+import Calender from "./pages/Calender";
+
+import OtherForms from "./pages/OtherForms";
+
 function App() {
   return (
     <div className="App">
@@ -53,6 +57,11 @@ function App() {
         <Route path="proceed" element={<ProceedToPayment />} />
         <Route path="addcaandexam" element={<AddCaAndExam />} />
         <Route path="printstudentprofile" element={<PrintStudentProfile />} />
+        <Route path="calender" element={<Calender />} />
+
+
+        <Route path="otherforms" element={<OtherForms />} />
+
       </Routes>
     </div>
   );

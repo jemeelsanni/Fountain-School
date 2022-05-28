@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import LogoutHandler from "../LogoutHandler";
 
 // import { Container, Nav, NavDropdown } from "react-bootstrap";
@@ -230,12 +231,12 @@ const Navbar = () => {
               </li>
 
               <li>
-                <a
-                  href="#"
-                  className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
-                >
+              <Link
+              to="/calender"
+              className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
+            >
                   <span className="group-hover:text-fountain">Calender</span>
-                </a>
+                </Link>
               </li>
 
               <li>

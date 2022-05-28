@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/no-unknown-property */
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import LogoutHandler from "../LogoutHandler";
 
 const Dashboard = () => {
@@ -24,7 +25,7 @@ const Dashboard = () => {
               className="px-4 py-5 flex items-center cursor-pointer border-b-2 justify-between space-x-4 text-tgray border-line group"
             >
               <span className="group-hover:text-fountain">Personal setup</span>
-              <img src="https://img.icons8.com/material/24/000000/sort-down--v1.png" />
+              <img src="https://img.icons8.com/material/24/000000/sort-down--v1.png" alt="+"/>
             </a>
             <div
               className={`${
@@ -72,7 +73,7 @@ const Dashboard = () => {
               className="px-4 py-5 flex items-center cursor-pointer justify-between border-b-2 space-x-4 text-tgray border-line group"
             >
               <span className="group-hover:text-fountain">Main Menu</span>
-              <img src="https://img.icons8.com/material/24/000000/sort-down--v1.png" />
+              <img src="https://img.icons8.com/material/24/000000/sort-down--v1.png" alt="+"/>
             </a>
             <div
               className={`${
@@ -123,23 +124,23 @@ const Dashboard = () => {
           </li>
 
           <li>
-            <a
-              href="/forms"
+          <Link
+              to="/otherforms"
               className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
             >
               <span className="group-hover:text-fountain">
                 Forms and Payment
               </span>
-            </a>
+            </Link>
           </li>
-
+          
           <li>
-            <a
-              href="#"
+          <Link
+              to="/calender"
               className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
             >
               <span className="group-hover:text-fountain">Calender</span>
-            </a>
+            </Link>
           </li>
 
           <li>

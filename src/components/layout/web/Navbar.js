@@ -1,9 +1,10 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
 const Navbar = () => {
   return (
     <div className="flex justify-between px-6 py-6">
-      <img src="./logo.jpg" className="w-14 h-12" />
+      <img src="./logo.jpg" className="w-14 h-12" alt="logo"/>
       <nav className="space-x-5">
         <a className=" font-semibold hover:text-fountain" href="">
           HOME
