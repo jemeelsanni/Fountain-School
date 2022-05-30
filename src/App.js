@@ -26,6 +26,8 @@ import ProceedToPayment from "./pages/ProceedToPayment";
 import Calender from "./pages/Calender";
 
 import OtherForms from "./pages/OtherForms";
+import About from "./pages/web/About";
+import Contact from "./pages/web/Contact";
 
 function App() {
   return (
@@ -61,6 +63,9 @@ function App() {
 
 
         <Route path="otherforms" element={<OtherForms />} />
+
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
 
       </Routes>
     </div>
