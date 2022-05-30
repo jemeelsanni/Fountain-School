@@ -2,13 +2,15 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/no-unknown-property */
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import LogoutHandler from "../LogoutHandler";
 
 const Dashboard = () => {
   const [show, setShow] = useState(false);
   const [show1, setShow1] = useState(false);
 
   return (
-    <aside className="ml-[-100%] hidden lg:block pl-1 top-0 pb-3 px-6 w-1/4 flex flex-col justify-between border-r-2 border-fountain  bg-white transition duration-300 md:w-4/12 lg:ml-0 lg:w-[25%] xl:w-[20%] 2xl:w-[15%] ">
+    <aside className="ml-[-100%] h-screen hidden lg:block pl-1 max-h-full  top-0 pb-3 px-6 w-1/4 flex flex-col justify-between border-r-2 border-fountain  bg-white transition duration-300 md:w-4/12 lg:ml-0 lg:w-[25%] xl:w-[20%] 2xl:w-[15%] ">
       <div>
         <ul className="space-y-4 tracking-wide mt-8">
           <li>
@@ -23,7 +25,7 @@ const Dashboard = () => {
               className="px-4 py-5 flex items-center cursor-pointer border-b-2 justify-between space-x-4 text-tgray border-line group"
             >
               <span className="group-hover:text-fountain">Personal setup</span>
-              <img src="https://img.icons8.com/material/24/000000/sort-down--v1.png" />
+              <img src="https://img.icons8.com/material/24/000000/sort-down--v1.png" alt="+"/>
             </a>
             <div
               className={`${
@@ -31,7 +33,7 @@ const Dashboard = () => {
               } border-fountain border-2 my-2`}
             >
               <a
-                href="#"
+                href="/mainmenu"
                 className="px-2 py-3 flex items-center border-b-2 justify-between space-x-4 text-tgray border-line group"
               >
                 <span className="group-hover:text-fountain text-sm">
@@ -39,7 +41,7 @@ const Dashboard = () => {
                 </span>
               </a>
               <a
-                href="#"
+                href="/personal2"
                 className="px-2 py-3 flex items-center border-b-2 justify-between space-x-4 text-tgray border-line group"
               >
                 <span className="group-hover:text-fountain text-sm">
@@ -71,7 +73,7 @@ const Dashboard = () => {
               className="px-4 py-5 flex items-center cursor-pointer justify-between border-b-2 space-x-4 text-tgray border-line group"
             >
               <span className="group-hover:text-fountain">Main Menu</span>
-              <img src="https://img.icons8.com/material/24/000000/sort-down--v1.png" />
+              <img src="https://img.icons8.com/material/24/000000/sort-down--v1.png" alt="+"/>
             </a>
             <div
               className={`${
@@ -79,7 +81,7 @@ const Dashboard = () => {
               } border-fountain border-2 my-2`}
             >
               <a
-                href="#"
+                href="/feepayment"
                 className="px-4 py-3 flex items-center border-b-2 justify-between space-x-4 text-tgray border-line group"
               >
                 <span className="group-hover:text-fountain text-sm">
@@ -87,7 +89,7 @@ const Dashboard = () => {
                 </span>
               </a>
               <a
-                href="#"
+                href="/receipt"
                 className="px-4 py-3 flex items-center border-b-2 justify-between space-x-4 text-tgray border-line group"
               >
                 <span className="group-hover:text-fountain text-sm">
@@ -95,7 +97,7 @@ const Dashboard = () => {
                 </span>
               </a>
               <a
-                href="#"
+                href="/timetable"
                 className="px-4 py-3 flex items-center border-b-2 justify-between space-x-4 text-tgray border-line group"
               >
                 <span className="group-hover:text-fountain text-sm">
@@ -103,7 +105,7 @@ const Dashboard = () => {
                 </span>
               </a>
               <a
-                href="#"
+                href="/result"
                 className="px-4 py-3 flex items-center border-b-2 justify-between space-x-4 text-tgray border-line group"
               >
                 <span className="group-hover:text-fountain text-sm">
@@ -111,7 +113,7 @@ const Dashboard = () => {
                 </span>
               </a>
               <a
-                href="#"
+                href="/letter"
                 className="px-4 py-3 flex items-center  justify-between space-x-4 text-tgray border-line group"
               >
                 <span className="group-hover:text-fountain text-sm">
@@ -122,23 +124,23 @@ const Dashboard = () => {
           </li>
 
           <li>
-            <a
-              href="#"
+          <Link
+              to="/otherforms"
               className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
             >
               <span className="group-hover:text-fountain">
                 Forms and Payment
               </span>
-            </a>
+            </Link>
           </li>
-
+          
           <li>
-            <a
-              href="#"
+          <Link
+              to="/calender"
               className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
             >
               <span className="group-hover:text-fountain">Calender</span>
-            </a>
+            </Link>
           </li>
 
           <li>
@@ -146,7 +148,9 @@ const Dashboard = () => {
               href="#"
               className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
             >
-              <span className="group-hover:text-fountain">Log Out</span>
+              <span className="group-hover:text-fountain">
+                <LogoutHandler />
+              </span>
             </a>
           </li>
         </ul>

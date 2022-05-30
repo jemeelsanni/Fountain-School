@@ -132,7 +132,7 @@ const Navbar = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="/teachersignin"
                   className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
                 >
                   <span className="group-hover:text-tgray">
@@ -143,7 +143,7 @@ const Navbar = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="/userauth"
                   className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
                 >
                   <span className="group-hover:text-tgray">

@@ -15,9 +15,9 @@ const TeacherSignin = () => {
             <div class="container  px-4 mx-auto">
               <div class="max-w-lg  mx-auto">
                 <div class=" my-12">
-                  <a class="inline-block mx-auto mb-6" href="#">
+                  {/* <a class="inline-block mx-auto mb-6" href="#">
                     <img src="nigodo-assets/logo-icon-nigodo.svg" alt="" />
-                  </a>
+                  </a> */}
                   <h2 class="text-3xl md:text-2xl font-medium mb-2">
                     Portal Login
                   </h2>
@@ -37,24 +37,24 @@ const TeacherSignin = () => {
                       placeholder="Password"
                     />
                   </div>
-                  <div class="flex flex-wrap -mx-4 mb-6 items-center justify-between">
-                    <div class="w-full lg:w-auto px-4 mb-4 lg:mb-0">
-                      <label for="">
-                        <input type="checkbox"
-                                className= ""
-                         />
-                        <span class="ml-1 text-tgray">Remember me</span>
-                      </label>
-                    </div>
-                    <div class="w-full lg:w-auto px-4">
-                      <a
-                        class="inline-block text-fountain hover:underline"
-                        href="#"
-                      >
-                        Forgot your password?
-                      </a>
-                    </div>
-                  </div>
+                  <div class="flex justify-between items-center mb-6">
+                        <div class="form-group form-check">
+                          <input
+                            type="checkbox"
+                            class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                            id="exampleCheck2"
+                          />
+                          <label
+                            class="form-check-label inline-block text-gray-800"
+                            for="exampleCheck2"
+                          >
+                            Remember me
+                          </label>
+                        </div>
+                        <a href="#!" class="text-fountain">
+                          Forgot password?
+                        </a>
+                      </div>
                   <button class="inline-block w-full py-4 px-6 mb-6 text-center text-lg leading-6 text-white font-sm bg-fountain  border-3 shadow rounded transition duration-200">
                     Log in
                   </button>
@@ -69,7 +69,7 @@ const TeacherSignin = () => {
             </div>
           </section>
 
-          <div className="max-w-lg lg:w-1/3 h-1/3 p-8 mt-40 border-fountain drop-shadow-2xl text-center text-fountain border-2 mx-auto rounded-lg dark:bg-gray-900 dark:text-gray-100">
+          <div className="max-w-lg lg:w-1/3 h-1/3 p-8  mt-40 border-fountain drop-shadow-2xl text-center text-fountain border-2 mx-auto rounded-lg dark:bg-gray-900 dark:text-gray-100">
                 School News
 </div>
         </div>
