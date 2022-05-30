@@ -16,7 +16,9 @@ module.exports = {
       Nursery: "#F24111F5",
       Primary: "#D92D37",
       statements: "#F9EFEF",
-      testimonies: "#FDFAFA"
+      testimonies: "#FDFAFA",
+      philosophy: "#F3491B"
+
 
 
     },

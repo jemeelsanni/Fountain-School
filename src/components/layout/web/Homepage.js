@@ -212,6 +212,8 @@ const Homepage = () => {
             </section>
             {/*!-- Testimonials section ends--*/}
 
+            <Footer/>
+
 
 
 
