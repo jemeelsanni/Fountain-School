@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 const About = () => {
     return (
         <div className=" px-20">
@@ -87,8 +88,13 @@ const About = () => {
                         <li>Second Position in Ogun State COWBELL Mathematics Competition in 2004</li>
                     </div>
                 </div>
+                
             </section>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <Footer/>
+            
         </div>
+        
         )
     }
     export default About
