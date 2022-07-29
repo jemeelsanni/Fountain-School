@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import LogoutHandler from "../LogoutHandler";
+import LogOut from "../modal/LogOut";
 
 // import { Container, Nav, NavDropdown } from "react-bootstrap";
 
@@ -157,7 +158,7 @@ const Navbar = () => {
                     className="px-4 py-3 flex items-center  justify-between space-x-4 text-tgray border-line group"
                   >
                     <span className="group-hover:text-fountain text-sm">
-                      <LogoutHandler />
+                      <LogOut />
                     </span>
                   </a>
                 </div>
@@ -231,10 +232,10 @@ const Navbar = () => {
               </li>
 
               <li>
-              <Link
-              to="/calender"
-              className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
-            >
+                <Link
+                  to="/calender"
+                  className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
+                >
                   <span className="group-hover:text-fountain">Calender</span>
                 </Link>
               </li>
@@ -245,7 +246,7 @@ const Navbar = () => {
                   className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
                 >
                   <span className="group-hover:text-fountain">
-                    <LogoutHandler />
+                    <LogOut />
                   </span>
                 </a>
               </li>

@@ -4,6 +4,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import LogoutHandler from "../LogoutHandler";
+import LogOut from "../modal/LogOut";
 
 const Dashboard = () => {
   const [show, setShow] = useState(false);
@@ -25,7 +26,10 @@ const Dashboard = () => {
               className="px-4 py-5 flex items-center cursor-pointer border-b-2 justify-between space-x-4 text-tgray border-line group"
             >
               <span className="group-hover:text-fountain">Personal setup</span>
-              <img src="https://img.icons8.com/material/24/000000/sort-down--v1.png" alt="+"/>
+              <img
+                src="https://img.icons8.com/material/24/000000/sort-down--v1.png"
+                alt="+"
+              />
             </a>
             <div
               className={`${
@@ -73,7 +77,10 @@ const Dashboard = () => {
               className="px-4 py-5 flex items-center cursor-pointer justify-between border-b-2 space-x-4 text-tgray border-line group"
             >
               <span className="group-hover:text-fountain">Main Menu</span>
-              <img src="https://img.icons8.com/material/24/000000/sort-down--v1.png" alt="+"/>
+              <img
+                src="https://img.icons8.com/material/24/000000/sort-down--v1.png"
+                alt="+"
+              />
             </a>
             <div
               className={`${
@@ -124,7 +131,7 @@ const Dashboard = () => {
           </li>
 
           <li>
-          <Link
+            <Link
               to="/otherforms"
               className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
             >
@@ -133,9 +140,9 @@ const Dashboard = () => {
               </span>
             </Link>
           </li>
-          
+
           <li>
-          <Link
+            <Link
               to="/calender"
               className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
             >
@@ -149,7 +156,7 @@ const Dashboard = () => {
               className="px-4 py-5 flex items-center border-b-2 space-x-4 text-tgray border-line group"
             >
               <span className="group-hover:text-fountain">
-                <LogoutHandler />
+                <LogOut />
               </span>
             </a>
           </li>

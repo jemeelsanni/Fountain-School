@@ -48,12 +48,12 @@ const UserSignin = () => {
                         />
                         <div
                           onClick={() => setShowPass(!showpass)}
-                          className="absolute right-0 mt-2 mr-3 cursor-pointer"
+                          className="absolute right-0  mr-3 cursor-pointer"
                         >
                           <div id="show">
                             <svg
-                              width={16}
-                              height={16}
+                              width={26}
+                              height={26}
                               viewBox="0 0 16 16"
                               fill="none"
                               xmlns="http://www.w3.org/2000/svg"
