@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<UserSignin />} />
         <Route path="test" element={<Test />} />
         <Route path="power" element={<Test />} />
         <Route path="teachersignin" element={<TeacherSignin />} />
@@ -59,9 +59,7 @@ function App() {
         <Route path="printstudentprofile" element={<PrintStudentProfile />} />
         <Route path="calender" element={<Calender />} />
 
-
         <Route path="otherforms" element={<OtherForms />} />
-
       </Routes>
     </div>
   );
