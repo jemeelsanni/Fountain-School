@@ -9,7 +9,7 @@ const PersonalDetails2 = () => {
         <div className="flex">
           <Side />
 
-          <div className="py-26 lg:pl-12 h-screen bg-white mt-24 w-full">
+          <div className="py-26 lg:pl-12 lg:h-screen h-[120vh] bg-white mt-24 w-full">
             <div className=" w-full  h-full flex justify-center ">
               <div className="lg:flex hidden flex-col h-full justify-between w-10/12 border-2 rounded-md border-fountain py-8 px-8">
                 <div className="w-full  flex justify-between ">

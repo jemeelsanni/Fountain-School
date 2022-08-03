@@ -6,10 +6,9 @@ import Side from "../components/layout/Side";
 import { useNavigate } from "react-router-dom";
 
 const TeacherSignin = () => {
-
-const navigate = useNavigate();
+  const navigate = useNavigate();
   const tempNavigation = () => {
-    navigate("/personal2");
+    navigate("/personal");
   };
 
   return (
@@ -46,24 +45,27 @@ const navigate = useNavigate();
                     />
                   </div>
                   <div class="flex justify-between items-center mb-6">
-                        <div class="form-group form-check">
-                          <input
-                            type="checkbox"
-                            class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
-                            id="exampleCheck2"
-                          />
-                          <label
-                            class="form-check-label inline-block text-gray-800"
-                            for="exampleCheck2"
-                          >
-                            Remember me
-                          </label>
-                        </div>
-                        <a href="#!" class="text-fountain">
-                          Forgot password?
-                        </a>
-                      </div>
-                  <button onClick={tempNavigation} class="inline-block w-full py-4 px-6 mb-6 text-center text-lg leading-6 text-white font-sm bg-fountain  border-3 shadow rounded transition duration-200">
+                    <div class="form-group form-check">
+                      <input
+                        type="checkbox"
+                        class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                        id="exampleCheck2"
+                      />
+                      <label
+                        class="form-check-label inline-block text-gray-800"
+                        for="exampleCheck2"
+                      >
+                        Remember me
+                      </label>
+                    </div>
+                    <a href="#!" class="text-fountain">
+                      Forgot password?
+                    </a>
+                  </div>
+                  <button
+                    onClick={tempNavigation}
+                    class="inline-block w-full py-4 px-6 mb-6 text-center text-lg leading-6 text-white font-sm bg-fountain  border-3 shadow rounded transition duration-200"
+                  >
                     Log in
                   </button>
                   <p class="text-center font-">
@@ -78,8 +80,8 @@ const navigate = useNavigate();
           </section>
 
           <div className="max-w-lg lg:w-1/3 h-1/3 p-8  mt-40 border-fountain drop-shadow-2xl text-center text-fountain border-2 mx-auto rounded-lg dark:bg-gray-900 dark:text-gray-100">
-                School News
-</div>
+            School News
+          </div>
         </div>
       </div>
     </div>
