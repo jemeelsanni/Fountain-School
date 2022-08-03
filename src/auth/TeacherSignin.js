@@ -3,7 +3,15 @@ import React from "react";
 import Layout from "../components/layout/Layout";
 import Side from "../components/layout/Side";
 
+import { useNavigate } from "react-router-dom";
+
 const TeacherSignin = () => {
+
+const navigate = useNavigate();
+  const tempNavigation = () => {
+    navigate("/personal2");
+  };
+
   return (
     <div className="px-4 lg:px-9">
       <Layout />
@@ -55,7 +63,7 @@ const TeacherSignin = () => {
                           Forgot password?
                         </a>
                       </div>
-                  <button class="inline-block w-full py-4 px-6 mb-6 text-center text-lg leading-6 text-white font-sm bg-fountain  border-3 shadow rounded transition duration-200">
+                  <button onClick={tempNavigation} class="inline-block w-full py-4 px-6 mb-6 text-center text-lg leading-6 text-white font-sm bg-fountain  border-3 shadow rounded transition duration-200">
                     Log in
                   </button>
                   <p class="text-center font-">
