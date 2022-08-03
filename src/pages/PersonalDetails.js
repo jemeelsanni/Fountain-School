@@ -29,7 +29,7 @@ const PersonalDetails = () => {
                         Ronaldo
                       </p>
                       <p>
-                        <span className="font-bold">Student ID</span> :
+                        <span className="font-bold">Teacher ID</span> :
                         7777777MAN
                       </p>
                       <p>
@@ -55,7 +55,7 @@ const PersonalDetails = () => {
                     Ronaldo
                   </p>
                   <p>
-                    <span className="font-bold">Student ID</span> : 7777777MAN
+                    <span className="font-bold">Teachers ID</span> : 7777777MAN
                   </p>
                   <p>
                     <span className="font-bold">Class</span> : 7
@@ -63,65 +63,6 @@ const PersonalDetails = () => {
                   <p>
                     <span className="font-bold">Class Letter</span> : C
                   </p>
-                </div>
-              </div>
-              <div className=" flex justify-center">
-                <div className="lg:flex max-w-4xl lg:w-3/4 w-screen justify-between mt-10 lg:max-h-96 max-h-60 h-96   border-2 rounded-md border-fountain ">
-                  {/* <!-- component --> */}
-                  <section class="   w-full">
-                    <div class="container  w-full  ">
-                      <div class=" w-full  hidden lg:block ">
-                        <h1 className="text-center font-bold py-6 text-2xl">
-                          Teachers Information
-                        </h1>
-                        <div className="border-b-2 max-w-full  w-full border-fountain"></div>
-                        <div className="py-10 px-10 flex flex-col justify-between h-60 ">
-                          <p className="text-xl">
-                            <span className="text-xl font-bold">Full Name</span>{" "}
-                            : Kakashi Hatake WhiteFang
-                          </p>
-                          <p className="text-xl">
-                            <span className="text-xl font-bold">E-Mail</span> :
-                            kakshihatakesharingan@gmail.com
-                          </p>
-                          <p className="text-xl">
-                            <span className="text-xl font-bold">
-                              Mobile Number
-                            </span>{" "}
-                            : 09060297797
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-
-                  {/* <img
-                    style={{ height: "215px", width: "215px" }}
-                    className="max-w-lg mx-auto my-auto"
-                    src="./profile.jpg"
-                    alt="profile"
-                  /> */}
-
-                  <div class="  block lg:hidden   w-full ">
-                    <h1 className="text-center font-bold text-lg py-2">
-                      Teachers Information
-                    </h1>
-                    <div className="border-b-4  max-w-full   w-full border-fountain"></div>
-                    <div className=" px-4 py-4 flex flex-col h-40 justify-between">
-                      <p className="text-lg">
-                        <span className="font-bold">Full Name</span> : Kakashi
-                        Hatake WhiteFang
-                      </p>
-                      <p className="text-lg">
-                        <span className="font-bold">E-Mail</span> :
-                        kakshihatakesharingan@gmail.com
-                      </p>
-                      <p className="text-lg">
-                        <span className="font-bold">Mobile Number</span> :
-                        09060297797
-                      </p>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
