@@ -2,25 +2,27 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     colors: {
-      transparent: "transparent",
-      current: "currentColor",
+      orange: "rgb(251 146 60)",
       white: "#ffffff",
-      purple: "#3f3cbb",
-      fountain: "#BB750C",
-      line: "#d3d3d3",
-      tgray: "#404040",
-      enroll: "#EB9B70",
-      button: "#7B5950",
-      welcome: "#F8DDCF", 
-      creche: "#D04E2B",
-      Nursery: "#F24111F5",
-      Primary: "#D92D37",
-      statements: "#F9EFEF",
-      testimonies: "#FDFAFA",
-      philosophy: "#F3491B"
+      zinc: "rgb(63 63 70)",
+      black: "#000000",
+      headb: "rgba(255,165,0,.2)",
+      sp: "#666",
+      bs: "rgba(0,0,0,.7)",
+      bsx: "#F7F7F7",
+      sh3: "#333"
+      
+     
 
 
 
+    },
+    boxShadow: {
+      '1xl': ' 0 1rem 2rem rgba(0,0,0,.1)',
+    },
+    fontFamily: {
+      sans: ['Nunito', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
     },
     extend: {},
   },
